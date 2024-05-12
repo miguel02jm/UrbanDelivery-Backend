@@ -1,6 +1,5 @@
 from flask_mqtt import Mqtt
 from app import app
-from variables import mqtt_messages
 
 app.config['MQTT_BROKER_URL'] = '192.168.1.151'
 app.config['MQTT_BROKER_PORT'] = 1883
